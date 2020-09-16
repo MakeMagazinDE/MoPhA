@@ -1,0 +1,61 @@
+//Eintraege fuer Tablle - Termine Mondfinsternisse
+//Struktur "YYYY-MM-DD>Art<aus Mitteleuropa%Bedeckungsgrad"
+const char mofi_0[] PROGMEM = "2020-01-10>H<H%0.90";    
+const char mofi_1[] PROGMEM = "2020-06-05>H<H%0.57";    
+const char mofi_2[] PROGMEM = "2020-07-05>H<H%0.25";    
+const char mofi_3[] PROGMEM = "2021-11-19>P<H%0.72";    
+const char mofi_4[] PROGMEM = "2022-05-16>T<T%1.36";    
+const char mofi_5[] PROGMEM = "2023-05-05>H<H%0.74";    
+const char mofi_6[] PROGMEM = "2023-10-28>P<P%0.12";    
+const char mofi_7[] PROGMEM = "2024-03-25>H<H%0.40";    
+const char mofi_8[] PROGMEM = "2024-09-18>P<P%0.08";    
+const char mofi_9[] PROGMEM = "2025-03-14>T<P%0.61";    
+const char mofi_10[] PROGMEM = "2025-09-07>T<T%1.36";    
+const char mofi_11[] PROGMEM = "2026-08-28>P<P%0.93";    
+const char mofi_12[] PROGMEM = "2027-02-20>H<H%0.93";    
+const char mofi_13[] PROGMEM = "2028-01-12>P<P%0.07";    
+const char mofi_14[] PROGMEM = "2028-07-06>P<P%0.27";    
+const char mofi_15[] PROGMEM = "2028-12-31>T<T%1.25";    
+const char mofi_16[] PROGMEM = "2029-06-26>T<T%1.84";    
+const char mofi_17[] PROGMEM = "2029-12-20>T<T%1.12";    
+const char mofi_18[] PROGMEM = "2030-06-15>P<P%0.45";    
+const char mofi_19[] PROGMEM = "2030-12-09>H<H%0.94";    
+const char mofi_20[] PROGMEM = "2031-05-07>H<H%0.88";    
+const char mofi_21[] PROGMEM = "2031-10-30>H<H%0.40";    
+const char mofi_22[] PROGMEM = "2032-10-08>T<T%1.10";    
+const char mofi_23[] PROGMEM = "2033-04-14>T<T%1.09";    
+const char mofi_24[] PROGMEM = "2034-04-03>H<H%0.86";    
+const char mofi_25[] PROGMEM = "2034-09-28>P<P%0.01";    
+const char mofi_26[] PROGMEM = "2035-08-19>P<P%0.10";    
+const char mofi_27[] PROGMEM = "2036-02-11>T<T%1.30";    
+const char mofi_28[] PROGMEM = "2036-08-07>T<T%1.45";    
+const char mofi_29[] PROGMEM = "2037-01-31>T<H%1.00";    
+const char mofi_30[] PROGMEM = "2037-07-27>P<P%0.81";    
+const char mofi_31[] PROGMEM = "2038-01-21>H<H%0.90";    
+const char mofi_32[] PROGMEM = "2038-06-17>H<H%0.44";    
+const char mofi_33[] PROGMEM = "2038-12-11>H<H%0.80";    
+const char mofi_34[] PROGMEM = "2039-06-06>P<P%0.89";    
+const char mofi_35[] PROGMEM = "2039-11-30>P<P%0.94";    
+const char mofi_36[] PROGMEM = "2040-11-18>T<T%1.40";    
+const char mofi_37[] PROGMEM = "2041-05-16>P<P%0.06";    
+const char mofi_38[] PROGMEM = "2041-11-08>P<P%0.17";    
+const char mofi_39[] PROGMEM = "2043-03-25>T<H%0.20";    
+const char mofi_40[] PROGMEM = "2043-09-19>T<T%1.26";    
+const char mofi_41[] PROGMEM = "2044-03-13>T<T%1.20";    
+const char mofi_42[] PROGMEM = "2045-03-03>H<H%0.30";    
+const char mofi_43[] PROGMEM = "2046-07-18>P<P%0.25";    
+const char mofi_44[] PROGMEM = "2047-01-12>T<T%1.23";    
+const char mofi_45[] PROGMEM = "2048-01-01>T<T%1.13";    
+const char mofi_46[] PROGMEM = "2048-06-26>P<P%0.64";    
+const char mofi_47[] PROGMEM = "2048-12-20>H<H%0.96";    
+const char mofi_48[] PROGMEM = "2049-06-15>H<H%0.25";    
+const char mofi_49[] PROGMEM = "2049-11-09>H<H%0.68";    
+const char mofi_50[] PROGMEM = "2050-05-06>T<T%1.08";    
+const char mofi_51[] PROGMEM = "2050-10-30>T<T%1.05";    
+
+
+// Initialisiere die Tabelle von Strings
+const char* const mofi_table20[] PROGMEM = { mofi_0, mofi_1, mofi_2, mofi_3, mofi_4, mofi_5, mofi_6, mofi_7, mofi_8, mofi_9, mofi_10, mofi_11, mofi_12, mofi_13, mofi_14, mofi_15, mofi_16, mofi_17 };
+const char* const mofi_table30[] PROGMEM = { mofi_18, mofi_19, mofi_20, mofi_21, mofi_22, mofi_23, mofi_24, mofi_25, mofi_26, mofi_27, mofi_28, mofi_29, mofi_30, mofi_31, mofi_32, mofi_33, mofi_34, mofi_35 };
+const char* const mofi_table40[] PROGMEM = { mofi_36, mofi_37, mofi_38, mofi_39, mofi_40, mofi_41, mofi_42, mofi_43, mofi_44, mofi_45, mofi_46, mofi_47, mofi_48, mofi_49 };
+const char* const mofi_table50[] PROGMEM = { mofi_50, mofi_51 };
